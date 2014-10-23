@@ -9,7 +9,7 @@ w=9.8*mass;
 matrix=[sind(theta1) sind(theta1); cosd(theta1) -cosd(theta1)];
 if mod(hangers,2)==0
 for x=1:1:sec
-    if x==1
+    if x==sec
     values=[(2*w/x);0];
     else
     values=[(w/x);0];
